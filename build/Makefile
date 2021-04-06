@@ -1,4 +1,5 @@
 PYTHON_VERSION = $(shell python --version | awk '{print $2}')
+VIRTUALENV_BIN = 'virtualenv'
  
 default: python.info
 
